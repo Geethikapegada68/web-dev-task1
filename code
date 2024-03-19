@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Member Team Page</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .team-member-card {
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .team-member-card img {
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Company Member Team</h1>
+    </header>
+
+    <!-- Team Members -->
+    <section class="team-members">
+        <div class="team-member-card">
+            <img src="https://via.placeholder.com/150" alt="Team Member 1">
+            <h2>John Doe</h2>
+            <p>CEO</p>
+        </div>
+        <div class="team-member-card">
+            <img src="https://via.placeholder.com/150" alt="Team Member 2">
+            <h2>Jane Smith</h2>
+            <p>CTO</p>
+        </div>
+        <!-- Add more team member cards as needed -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
